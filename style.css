@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #263238;
+}
+
+header {
+    background: #163b65;
+    color: white;
+    text-align: center;
+    padding: 28px 12px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+nav {
+    background: #24578b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 55px 15px;
+    background: #dceeff;
+}
+
+.hero h2 {
+    color: #163b65;
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 20px;
+    background: #163b65;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #163b65;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+.card h3 {
+    color: #24578b;
+}
+
+button {
+    background: #16845b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #106443;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #bbc7d3;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#cartItems {
+    display: inline-block;
+    text-align: left;
+}
+
+footer {
+    background: #163b65;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
